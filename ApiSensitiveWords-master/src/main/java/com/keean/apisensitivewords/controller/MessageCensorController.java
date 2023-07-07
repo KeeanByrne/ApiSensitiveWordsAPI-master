@@ -1,5 +1,6 @@
     package com.keean.apisensitivewords.controller;
 
+    //--------------------Import List--------------------//
     import com.keean.apisensitivewords.entity.sensitiveWord;
     import com.keean.apisensitivewords.repository.SensitiveWordRepository;
     import org.springframework.http.HttpStatusCode;
@@ -11,6 +12,8 @@
     import java.util.Arrays;
     import java.util.List;
     import java.util.regex.Pattern;
+
+    //--------------------Import List--------------------//
 
     @RestController
     @RequestMapping("/api")
